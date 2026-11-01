@@ -1,0 +1,27 @@
+<svg width="700" height="100" viewBox="0 0 700 100"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <style>
+    text {
+      font-family: monospace;
+      font-size: 38px;
+      fill: #FFD700;
+    }
+
+    .typing {
+      clip-path: inset(0 100% 0 0);
+      animation: typing 6s steps(10) infinite;
+    }
+
+    @keyframes typing {
+      0% { clip-path: inset(0 100% 0 0); }
+      35% { clip-path: inset(0 0 0 0); }
+      65% { clip-path: inset(0 0 0 0); }
+      100% { clip-path: inset(0 100% 0 0); }
+    }
+  </style>
+
+  <text x="50%" y="55%" text-anchor="middle"
+        class="typing">stay alive</text>
+
+</svg>
